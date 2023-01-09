@@ -77,7 +77,8 @@ const handleSubmit = async(e) => {
   const messageDiv = document.getElementById(uniqueId);
   loader(messageDiv);
   // fetch data from server => bot's response
-
+  // change domain
+  
   const response = await fetch('https://chatboxai.onrender.com/', {
     method: 'POST',
     headers: {
